@@ -5,7 +5,7 @@ body{
     width:100%;
     padding: 15px 5px;
     font-size: 20pt;
-    text-allign: center;
+    text-align: center;
     position: fixed; /* to top of screen*/
     top: 0px;
     left: 0px;
@@ -33,7 +33,7 @@ button{
     width: 90%;
     margin: 10px auto;
     padding: 10px;
-    fornt-size: 17pt;
+    font-size: 17pt;
 }
 #map{
     position: relative;
@@ -45,7 +45,7 @@ button{
 #directions{
     position:relative;
     height: auto;/*will grow as needed*/
-    wifth:90%;
+    width:90%;
     margin: 15px auto;
     padding: 10px;
 }
