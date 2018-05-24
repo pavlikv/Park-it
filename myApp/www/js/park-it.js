@@ -84,9 +84,7 @@ $("#park").click(function () {
 });
 
 $("#retrieve").click(function() {
-    showParkingLocation();
-    $("#instructions").slideUp();
-    $("#directions").slideUp();
+    getParkinglocation();
 });
 
 $("#gotIt").click(function () {
@@ -101,7 +99,7 @@ function getParkinglocation(){
         });
 }
 
-function getParkinglocationSuccess(){
+function getParkinglocationSuccess(position){
     currentLatitude = position.coords.latitude;
     currentLongitude = position.coords.longitude;
     parkedLatitude = storage.getItem('parkedLatitude');
